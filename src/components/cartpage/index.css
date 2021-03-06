@@ -1,0 +1,48 @@
+.cartPage .table h4 , .cartPage .table h5 {
+    text-align: center;
+    width: 14%;
+    font-weight: 400;
+}
+
+.cartPage .table #name-of-product {
+    width: 18%;
+}
+
+.cartPage .table img {
+    display: inline-block;
+    width: 14%;
+}
+
+#calculations h4 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 776px) {
+    .cartPage div h4 , .cartPage div h5 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .cartPage div h4 , .cartPage div h5 {
+        font-size: 12px;
+    }
+    .quantity {
+        flex-direction: column-reverse;
+        /* align-items here is equal to align-self below at individual buttons */
+    }
+    .quantity .button {
+        margin: 1px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .cartPage div h4 {
+        font-size: 8px;
+    }
+    #calculations h4 {
+        font-size: 14px;
+    }
+}
+

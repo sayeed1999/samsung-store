@@ -1,0 +1,16 @@
+.product .detail:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 345px) {
+    .productPage .phones {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        transform: translateX(-10px);
+    }
+    .product {
+        max-width: 80%;
+    }
+}

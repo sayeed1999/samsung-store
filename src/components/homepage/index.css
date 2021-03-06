@@ -1,0 +1,15 @@
+.homePage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: dodgerblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 352px) {
+    img {
+        max-width: 90%;
+    }
+}

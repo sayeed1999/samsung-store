@@ -1,0 +1,12 @@
+.detailPage .body {
+    width: 60%;
+}
+
+@media screen and (max-width: 1268px) {
+    .detailPage {
+        flex-direction: column;
+    }
+    .detailPage .body {
+        width: 80%;
+    }
+}
